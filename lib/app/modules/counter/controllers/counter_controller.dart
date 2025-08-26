@@ -6,7 +6,7 @@ class CounterController extends GetxController {
 
   void increment() {
     if (hitung < 100) {
-      hitung++;
+        hitung++;
     } else {
       Get.snackbar(
         "Stop",
@@ -17,7 +17,6 @@ class CounterController extends GetxController {
       );
     }
   }
-
 
   void decrement() {
     if (hitung > 1) {

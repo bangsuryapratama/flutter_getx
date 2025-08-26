@@ -22,7 +22,7 @@ class CounterView extends GetView<CounterController> {
                   style: TextStyle(
                     fontSize: 16 + controller.hitung.value.toDouble(),
                     fontWeight: FontWeight.bold,
-                    color: Colors.blueAccent,
+                    color: Colors.red,
                   ),
                   child: Text("Hitungan ke: ${controller.hitung}"),
                 )),
