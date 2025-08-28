@@ -3,6 +3,7 @@ import 'package:aplikasi_saya/app/modules/counter/views/counter_view.dart';
 import 'package:aplikasi_saya/app/modules/home/controllers/home_controller.dart';
 import 'package:aplikasi_saya/app/modules/kitab/views/kitab_view.dart';
 import 'package:aplikasi_saya/app/modules/post/views/post_view.dart';
+import 'package:aplikasi_saya/app/modules/profile/views/profile_view.dart';
 import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -15,6 +16,7 @@ class HomeView extends GetView<HomeController> {
     PostView(),
     FormPendaftaranView(),
     KitabView(),
+    ProfileView(),
   ];
 
   @override

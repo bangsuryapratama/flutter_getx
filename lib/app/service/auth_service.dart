@@ -53,4 +53,12 @@ class AuthService extends GetConnect {
       headers: {'Authorization': 'Bearer $token', 'Accept': 'application/json'},
     );
   }
+
+  Future<Response> getProfile(String token) {
+    return get(
+      '$authUrl/user',
+      headers: {'Accept': 'application/json', 'Authorization': 'Bearer $token'},
+    );
+  }
+
 }
