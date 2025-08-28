@@ -5,7 +5,8 @@ import '../controllers/kitab_controller.dart';
 
 
 class KitabView extends GetView<KitabController> {
-  const KitabView({Key? key}) : super(key: key);
+   KitabView({Key? key}) : super(key: key);
+  final KitabController controller = Get.put(KitabController());
 
   @override
   Widget build(BuildContext context) {
